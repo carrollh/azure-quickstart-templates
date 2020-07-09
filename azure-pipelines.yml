@@ -17,7 +17,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Pay-As-You-Go (ce9fb5c5-f87d-4d4e-9561-92b3c64182b7)'
+    azureResourceManagerConnection: 'Pipelines Service Connection'
     subscriptionId: '90b70eaf-cc01-414a-ac78-acc96a6aec0d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'HCARROLL-TEST'
