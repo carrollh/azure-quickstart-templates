@@ -17,7 +17,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Pipelines Service Connection'
+    azureResourceManagerConnection: 'Pipelines Service Connection (WinDevTeam)'
     subscriptionId: '90b70eaf-cc01-414a-ac78-acc96a6aec0d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'HCARROLL-TEST'
